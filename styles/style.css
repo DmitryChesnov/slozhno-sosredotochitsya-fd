@@ -124,7 +124,8 @@
   color: var(--text-color);
   background-color: var(--accent-color);
   margin-top: 52px;
-  margin-left: -3%;
+  margin-left: -1.5vh;
+  margin-right: 0.5vh;
 }
 
 .main {
