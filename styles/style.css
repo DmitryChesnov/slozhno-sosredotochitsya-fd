@@ -121,7 +121,7 @@
   justify-self: flex-start;
   align-self: center;
   font-weight: 700;
-  color: var(--subtitle-color);
+  color: var(--section-title-color);
   background-color: var(--accent-color);
   margin-top: 52px;
   margin-left: -1.5vh;
@@ -147,7 +147,7 @@
 }
 
 .content__title {
-  color: var(--border-color, #ff0070);
+  color: var(--subtitle-color);
 }
 
 .section__article__title {
@@ -155,7 +155,7 @@
   width: 350px;
   font-weight: 700;
   font-size: 18px;
-  color: var(--subtitle-color, #000028);
+  color: var(--section-title-color, #000028);
   background-color: var(--accent-color, #ff0070);
   margin-top: 3%;
   margin-left: 2.8%;
@@ -231,7 +231,7 @@
 .concentrate-better__title {
   margin-top: 3%;
   margin-block-end: 10px;
-  color: var(--subtitle-color);
+  color: var(--section-title-color);
   background-color: var(--accent-color);
 }
 
@@ -297,7 +297,7 @@
 }
 
 .dark-title {
-  color: var(--subtitle-color, #000028);
+  color: var(--section-title-color, #000028);
   background-color: var(--accent-color, #ff0070);
   max-width: none;
 }

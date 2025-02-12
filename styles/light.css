@@ -7,6 +7,15 @@
   --accent-color: #ff8dcb;
   --border-color: #ff8dcb;
   --secondary-color: #353430;
+  --subtitle-color: #000028;
+  --section-title-color: #000028;
+}
+
+
+.theme-light .page {
+  .rec {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -19,9 +28,8 @@
     --accent-color: #ff8dcb;
     --border-color: #ff8dcb;
     --secondary-color: #353430;
+    --subtitle-color: #000028;
+    --section-title-color: #000028;
   }
 
-  .rec {
-    display: none;
-  }
 }
