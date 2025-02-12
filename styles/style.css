@@ -89,7 +89,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(--secondary-color, #ff007040);
+  border: 1px solid var(--border-color, #ff007040);
 }
 
 .header__theme-menu-button:focus {
@@ -97,12 +97,12 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end-color: currentColor;
+  border-block-end-color: (--border-color);
 }
 
 .header__theme-menu-button_active {
   cursor: default;
-  border-color: currentColor;
+  border-color: (--border-color);
   pointer-events: none;
 }
 
@@ -113,7 +113,7 @@
   align-self: center;
   margin-left: -3%;
   color: var(--heading-text, #db00ff);
-  text-shadow: 4px 4px 0px var(--border-color, #ff0070);
+  text-shadow: 4px 4px 0px var(--accent-color, #ff0070);
   padding-top: 54px;
 }
 
@@ -177,7 +177,7 @@
   font-size: 18px;
   color: var(--text-color);
   font-family: var(--font-family, "IBM Plex Mono", monospace);
-  margin-left: 2vh;
+  margin-left: 1.5vh;
 }
 
 .article__list-item .section__article__title {
