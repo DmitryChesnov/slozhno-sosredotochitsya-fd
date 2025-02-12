@@ -121,7 +121,7 @@
   justify-self: flex-start;
   align-self: center;
   font-weight: 700;
-  color: var(--text-color);
+  color: var(--subtitle-color);
   background-color: var(--accent-color);
   margin-top: 52px;
   margin-left: -1.5vh;
@@ -155,7 +155,7 @@
   width: 350px;
   font-weight: 700;
   font-size: 18px;
-  color: var(--text-color, #000028);
+  color: var(--subtitle-color, #000028);
   background-color: var(--accent-color, #ff0070);
   margin-top: 3%;
   margin-left: 2.8%;
@@ -231,7 +231,7 @@
 .concentrate-better__title {
   margin-top: 3%;
   margin-block-end: 10px;
-  color: var(--text-color);
+  color: var(--subtitle-color);
   background-color: var(--accent-color);
 }
 
@@ -297,7 +297,7 @@
 }
 
 .dark-title {
-  color: var(--text-color, #000028);
+  color: var(--subtitle-color, #000028);
   background-color: var(--accent-color, #ff0070);
   max-width: none;
 }
@@ -377,7 +377,7 @@
   .content__section:nth-child(2) {
     display: grid;
     gap: 0px;
-    grid-template-columns: repeat(auto-fill, 350px);
+    grid-template-columns: repeat(auto-fill, 750px);
     padding-top: 35px;
   }
   .content__section:nth-child(2) .content__title {
@@ -401,14 +401,21 @@
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
     margin-block-end: 33px;
+    margin-top: 2.1vh;
   }
 
   .concentrate-better__title {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     margin-top: -5%;
-    margin-block-end: 9px;
+    margin-block-end: 8px;
     inline-size: fit-content;
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+
+  .fish {
+    padding-top: 0vh;
   }
 
   .fish__container {
@@ -425,6 +432,7 @@
 
   .section:last-of-type .section__title {
     margin-left: 10px;
+    width: 96%;
   }
 
   .section__pictures {
@@ -463,7 +471,7 @@
   .footer .header__title {
     justify-self: center;
     padding-top: 24vh;
-    padding-left: 7vh;
+    padding-left: 7.1vh;
   }
 }
 
