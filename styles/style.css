@@ -304,6 +304,7 @@
 
 .footer {
   width: 93%;
+  height: 100vh;
   margin-top: 40px;
   padding: 247px 23px;
   margin-block-start: 30px;

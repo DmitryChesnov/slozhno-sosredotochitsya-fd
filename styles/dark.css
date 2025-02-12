@@ -13,7 +13,7 @@
   --subtitle-color: #000028;
   --border-color: #ff0070;
   --border-bottom: #f1b2ce;
-  --bg-image: url(../images/cover-image-dark.png);
+  --bg-image: url(./images/cover-image-dark.png);
   --secondary-color: var(--color-purple, #ff007040);
 }
 /*
