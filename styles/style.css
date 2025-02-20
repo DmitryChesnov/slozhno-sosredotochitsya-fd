@@ -331,13 +331,13 @@
   margin-top: 40px;
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding: 247px 23px;
   margin-block-start: 40px;
 }
 
 @media (width >= 768px) {
   .header {
-    min-height: 768px;
     margin-bottom: 10px;
   }
 
@@ -370,9 +370,7 @@
   }
 
   .content__section {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(3, 1fr);
+   grid-template-columns: repeat(3, 1fr);
   }
 
   .title {
@@ -396,26 +394,22 @@
     width: 93.3%;
   }
   .article__text {
-    font-size: 18px;
-    margin-left: 13px;
+    margin-left: 16px;
     margin-right: 20px;
-  }
-
-  .focus__container .article {
-    margin-block-end: 6px;
+    width: 93%;
   }
 
   .concentrate {
     display: grid;
     gap: 0px;
     grid-template-columns: repeat(auto-fill, 750px);
-    padding-top: 38px;
+    padding-top: 34px;
   }
   .concentrate .content__title {
-    width: 100%;
-    max-width: 257px;
+    width: 33%;
   }
   .concentrate .article__text {
+    justify-self: center;
     margin-left: 18px;
     margin-right: 0px;
     width: 97%;
@@ -477,7 +471,6 @@
   }
 
   .section__pictures {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     gap: 20px;
@@ -511,7 +504,6 @@
 
   .footer {
     margin-top: 63px;
-    min-height: 768px;
   }
 
   .footer .header__title {
@@ -526,7 +518,6 @@
 
 @media (width >= 1024px) {
   .header {
-    min-height: 768px;
     margin-bottom: 40px;
   }
 
@@ -619,7 +610,6 @@
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     width: 100%;
-    max-width: 500px;
   }
 
   .concentrate__container {
@@ -632,8 +622,7 @@
   }
 
   .concentrate .section__article__title {
-    width: 100%;
-    max-width: 314px;
+    width: 93%;
     margin-top: 0.8vh;
     margin-left: 6px;
     justify-self: start;
@@ -642,8 +631,7 @@
   .fish__container .title {
     margin-left: 1.5vh;
     padding-top: 5px;
-    width: 100%;
-    max-width: 646px;
+    width: 95%;
     line-height: 20px;
     padding-left: 0px;
   }
@@ -698,15 +686,14 @@
   }
 
   .section:last-of-type {
-    margin-top: 79px;
+    margin-top: 80px;
     margin-left: 0px;
     margin-bottom: 60px;
   }
 
   .section:last-of-type .section__title {
-    margin-left: 2.5vh;
+    margin-left: 20px;
     margin-top: 0;
-    width: 96%;
   }
 
   .section__pictures {
@@ -718,7 +705,6 @@
     margin-top: 0px;
     padding: 221px 0px;
     margin-block-start: 0px;
-    min-height: 768px;
   }
 
   .footer .header__title {
