@@ -308,14 +308,6 @@
     right: 18px;
   }
 
-  .content__section {
-    margin-top: 80px;
-  }
-
-  .content__section:first-child {
-    margin-top: 60px;
-  }
-
   .header__title {
     margin-left: -20px;
   }
@@ -330,18 +322,24 @@
     left: 20px;
   }
 
-  .article {
-    line-height: 1.25;
-  }
-
   .content__section {
     grid-template-columns: repeat(3, 1fr);
+    margin-top: 80px;
+  }
+
+ .content__section:first-child {
+  margin-top: 60px;
+  }
+
+  .article {
+    line-height: 1.25;
   }
 
   .title {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
+
   .content__title {
     width: 100%;
   }
