@@ -11,6 +11,9 @@
   --section-title-color: #353430;
 }
 
+.header__theme-menu-button:hover {
+  border: 1px solid #32312d66;
+}
 
 .theme-light .page {
   .rec {
@@ -31,7 +34,11 @@
     --subtitle-color: #353430;
     --section-title-color: #353430;
   }
-  rec {
-      display: none;
-    }
+  .rec {
+    display: none;
+  }
+
+  .header__theme-menu-button:hover {
+    border: 1px solid #32312d66;
+  }
 }
