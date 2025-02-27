@@ -11,6 +11,8 @@
   --border-bottom: #f1b2ce;
   --bg-image: url(../images/cover-image-dark.png);
   --secondary-color: var(--color-purple, #ff007040);
+  --hover-color: #ff007066;
+
   .rec {
     display: block;
   }
